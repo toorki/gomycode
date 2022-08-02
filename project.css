@@ -1,0 +1,88 @@
+body{background-color: #aaa;
+    background: linear-gradient(#aaa,#000);
+margin: 0%;
+padding: 50px;
+font-family: Arial, Helvetica, sans-serif;}
+nav{background-color: #fff;
+    border-bottom-width: 2px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    padding: 10px 30px;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 20px;
+}
+#nav-container{
+    border-right: solid #aaa;
+    float: left;
+    width: 150px;
+    padding: 15px 15px 15px 30px;
+}
+#nav-title{
+font-size: 16px;
+font-weight: 600;
+text-transform: uppercase;
+}
+ul.nav{
+    padding: 0;
+    list-style-type: none;
+}
+ul.nav li a{
+    display: block;
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 0;
+}
+ul.nav li a:hover{
+color: #555;
+background-color: #55555555;
+}
+#body{
+    float: left;
+    width: calc(100% - 250px);
+    padding: 15px;
+}
+blockquote{
+    font-style: italic;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'shrikend',cursive;
+}
+blockquote::after{
+    content: '"-TORKI Laroussi';
+}
+blockquote::before{
+    content: '"';
+}
+.row{
+    display: block;
+    width: 100%;
+}
+footer{
+    font-size: 13px;
+    margin-top: 37%;
+    margin-bottom: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    background-color: #333;
+    color: #fff;
+    border-top: 1px solid red;
+}
+.full-col,
+.col1, .col2, .col3{
+    display: inline-block;
+    width: calc(31% - 60px);
+    padding: 0  30px;
+    text-align: center;
+}
+.full-col{
+    width: calc(100% - 60px);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,18 @@
+
+    @keyframes animationtest{
+        0%{margin-left: 0;}
+        25%{margin-top: 100%; margin-left: 0;}
+        50%{margin-left: 100%; margin-bottom: 0;}
+        75%{margin-bottom: 100%; margin-right: 0;}
+        100%{margin-top: 0 ; margin-left: 100%;}
+    }
+.box{
+margin: 0;
+width: 200px;
+height: 200px;
+border: 1px solid red;
+background-color: #ccc;
+animation-name: animationtest;
+animation-duration: 5s;
+animation-direction: normal;
+}

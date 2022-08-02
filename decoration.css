@@ -1,0 +1,23 @@
+p.left{
+    text-align: left;
+}
+p.right{
+    text-align: right;
+}
+p.centre{
+    text-align: center;
+}
+p.justify{
+    text-align: justify;
+}
+p.underline{
+    text-decoration: underline;
+}
+p.overline{
+    text-decoration: overline;
+}
+p.strike{
+    text-decoration: line-through;
+    text-decoration-color: brown;
+    text-decoration-style: wavy;
+}

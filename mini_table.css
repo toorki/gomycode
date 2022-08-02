@@ -1,0 +1,28 @@
+table{
+    border: 5px solid darkgray;
+    border-collapse: collapse;
+}
+thead{
+    background-color: gray;
+    border: 2px solid darkgray;
+}
+thead th{
+    border: 2px solid darkgray;
+}
+table td{
+    border: 2px solid black;
+}
+tfoot{
+    background-color: gray;
+    border: 2px solid darkgray;
+}
+tfoot th{
+    border: 2px solid darkgray;
+}
+tbody:hover{background-color: lightgray;}
+tbody:hover td:hover{
+    background-color: darkgray;
+}
+tbody td{
+    text-align: center;
+}

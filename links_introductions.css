@@ -1,0 +1,12 @@
+nav{
+    background-color: cornflowerblue;
+    height: 50px;
+    color: darkslategray;
+}
+body{background-color: aqua;}
+.link1{
+    text-decoration: none;
+}
+.link1:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+.test{
+    width: 300px; height: 300px;
+    border: 1px solid red;
+    background-image: url(amira.png), url(sky.jpg), url(facebook.png);
+    background-size: 100%, 50%, 30%;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: top center, bottom center, bottom left}

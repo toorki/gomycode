@@ -1,0 +1,47 @@
+input,button{
+    display: block;
+}
+nav{
+    padding: 0%;
+    background-color: green;
+    color: white;
+}
+.bt{
+    color: black;
+    background-color: yellow;
+    margin-left: auto;
+    margin-top: 0px;
+}
+body{
+    background-color: green;
+    padding-bottom: 10px;
+}
+footer{
+    background-color: midnightblue;
+}
+form{
+    margin-top: 500px;
+    margin: auto;
+    width: 500px;
+    height: 60px;
+    padding: 30px;
+    background-color: white;
+}
+input{
+    width: 450px;
+}
+#bt1{
+    margin: auto;
+    font-style: oblique;
+    color: black;
+    background-color: yellow;
+}
+strong{
+    color: white;
+    margin: 10px;
+}
+.str{
+    color: yellow;
+    margin-bottom: 0px;
+    display: block;
+}
